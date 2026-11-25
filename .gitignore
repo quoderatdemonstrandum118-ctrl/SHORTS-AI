@@ -1,0 +1,32 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+secrets/
+auth_data/
+youtube_client_secret.json
+*client*secret*.json
+*token*.json
+
+# Python tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.vscode/
+
+# User generated content and local model/cache data
+uploads/
+clips/
+highlights/
+transcripts/
+clip_captions/
+manual_selections/
+subtitle_reviews/
+speech_*/
+*.mp4
+*.mp3
+*.sqlite3
+my_highlights.json
+download_history.json
+youtube_upload_history.json
